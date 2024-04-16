@@ -1,11 +1,11 @@
 # Inverse designing surface curvatures by deep learning
 
-Implementation of machine learning framework for "**Inverse designing Surface Curvatures by Deep Learning**" (doi-to-be-inserted) as described in the following publication.
+Code and data of the machine learning framework described in the publication "**Inverse designing Surface Curvatures by Deep Learning**", _Advanced Intelligent Systems_, 2300789 (2024).
 
 ## Citation
 
 If you use this code, please cite the following publication: 
-Y. Guo, S. Sharma, and S. Kumar, **Inverse designing Surface Curvatures by Deep Learning**, _Advanced Intelligent Systems, TBD_, 2024." DOI: TBD.
+Y. Guo, S. Sharma, and S. Kumar, **Inverse designing Surface Curvatures by Deep Learning**, _Advanced Intelligent Systems_, 2300789 (2024). DOI: https://doi.org/10.1002/aisy.202300789
 
 ## Installation requirements
 
@@ -32,6 +32,7 @@ Note the codes were tested on the following package versions. Incompatibility is
 -  Before doing inverse design, users need to train their own models by running 'fwd_train.py' and 'inv_train.py'. The trained model and loss histories will be stored in folder './model/'. Expected training time on 3 GPUs is about 24 hours for forward model and 10 hours for inverse model, duration may vary on different devices.
 -  Once the inverse and forward models are trained, users can use them to do inverse design for demos under folder './benchmarks/'.
 -  Further instructions are provided in README files inside each sub-directory.
+-  For obtaining pre-trained models, please contact the authors of the publication.
 
 
 
