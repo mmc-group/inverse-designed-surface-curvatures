@@ -32,7 +32,7 @@ Note the codes were tested on the following package versions. Incompatibility is
 -  Before doing inverse design, users need to train their own models by running 'fwd_train.py' and 'inv_train.py'. The trained model and loss histories will be stored in folder './model/'. Expected training time on 3 GPUs is about 24 hours for forward model and 10 hours for inverse model, duration may vary on different devices.
 -  Once the inverse and forward models are trained, users can use them to do inverse design for demos under folder './benchmarks/'.
 -  Further instructions are provided in README files inside each sub-directory.
--  For obtaining pre-trained models, please contact the authors of the publication.
+-  For obtaining pre-trained models, please contact the authors of the publication. Codes for loading pre-trained models can be found in fwd_train.py line 62-69 and inv_train.py line 72-79.
 
 
 
